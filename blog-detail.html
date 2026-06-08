@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Dynamic SEO Meta Tags overridden by blog-renderer.js -->
+  <title>Blog Insight | Dexton Solvexx</title>
+  <meta name="description" content="Read global offshore recruitment trends, remote team tips and RPO best practices on the Dexton Solvexx resource center.">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Blog Insight | Dexton Solvexx">
+  <meta property="og:description" content="Read global offshore recruitment trends, remote team tips and RPO best practices on the Dexton Solvexx resource center.">
+  <meta property="og:image" content="assets/images/og_share_default.png">
+  
+  <!-- Google Fonts & Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Dynamic Header Root -->
+  <div id="header-root"></div>
+
+  <!-- Main Content Area -->
+  <main style="padding-top: 6.5rem;">
+    
+    <!-- Hero Banner Section -->
+    <section class="reveal" style="padding: var(--space-lg) 0; background: radial-gradient(circle at 10% 20%, rgba(139, 92, 246, 0.03) 0%, transparent 40%); border-bottom: 1px solid var(--border-glass);">
+      <div class="container">
+        <!-- Breadcrumb Navigation -->
+        <nav class="breadcrumb-nav">
+          <a href="index.html">Home</a>
+          <i class="fas fa-chevron-right" style="font-size:0.65rem;"></i>
+          <a href="blog.html">Blog</a>
+          <i class="fas fa-chevron-right" style="font-size:0.65rem;"></i>
+          <span id="breadcrumb-active" style="color:var(--accent); font-weight:500;">Blog Details</span>
+        </nav>
+        
+        <div class="tag-badge" id="blog-category-badge">RPO Trends</div>
+        <h1 id="blog-title" style="font-size:2.85rem; margin-bottom:var(--space-sm); line-height:1.2;">Article Title</h1>
+        
+        <!-- Author Metabar -->
+        <div style="display:flex; align-items:center; gap:16px;">
+          <div class="widget-avatar" id="blog-author-avatar" style="width:40px; height:40px; font-size:1rem;">ER</div>
+          <div>
+            <p style="color:var(--text-white); font-weight:600; font-size:0.95rem; margin-bottom:2px;" id="blog-author-name">Elena Rostova</p>
+            <p style="color:var(--text-muted); font-size:0.78rem;" id="blog-author-meta">VP of Global Talent Strategy &bull; May 18, 2026</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed Split Body Section -->
+    <section style="padding: var(--space-lg) 0;">
+      <div class="container">
+        <div style="display:grid; grid-template-columns:1.6fr 0.9fr; gap:var(--space-lg); align-items:start;" id="detail-grid-container">
+          
+          <!-- LEFT SIDE: Detailed SEO Content -->
+          <div>
+            <!-- Intro Paragraph -->
+            <div id="blog-intro" style="font-size:1.15rem; color:var(--text-white); margin-bottom:var(--space-lg); font-weight:500; line-height:1.6;">
+              Introductory overview of our expert corporate staffing insights.
+            </div>
+
+            <!-- Narrative Body -->
+            <div id="blog-content" class="blog-rich-text" style="color:var(--text-secondary); line-height:1.8; font-size:1.02rem; margin-bottom:var(--space-lg);">
+              <!-- Dynamically populated article body -->
+            </div>
+          </div>
+
+          <!-- RIGHT SIDE: Sidebar Widgets -->
+          <div style="position:-webkit-sticky; position:sticky; top:8.5rem; display:flex; flex-direction:column; gap:var(--space-md);" id="sidebar-container">
+            <!-- Author Profile Info -->
+            <div class="glass-card" style="padding:var(--space-md);">
+              <h4 style="margin-bottom:var(--space-sm); display:flex; align-items:center; gap:8px;">
+                <i class="fas fa-user-circle" style="color:var(--accent);"></i>
+                About the Author
+              </h4>
+              <p style="font-size:0.85rem; color:var(--text-secondary); line-height:1.5;" id="blog-author-description">
+                Elena is a senior strategist with 15+ years of experience advising high-growth tech companies and global enterprises on distributed team operations and cross-border recruiting operations.
+              </p>
+            </div>
+
+            <!-- Newsletter Signup Form -->
+            <div class="glass-card" style="padding:var(--space-md); border-color:var(--border-glass-glow);">
+              <h4 style="margin-bottom:6px; display:flex; align-items:center; gap:8px;">
+                <i class="fas fa-paper-plane" style="color:var(--accent);"></i>
+                Insights Newsletter
+              </h4>
+              <p style="font-size:0.8rem; margin-bottom:var(--space-sm);">Stay ahead of global hiring trends. Get monthly research digests on offshore staffing, RPO innovations, and compliance models.</p>
+              
+              <form class="newsletter-footer-form" style="display:flex; flex-direction:column; gap:12px;">
+                <div class="form-group" style="margin-bottom:0;">
+                  <label class="form-label">Corporate Email</label>
+                  <input type="email" class="form-input" name="email" required placeholder="vp@firm.com">
+                </div>
+                <button type="submit" class="btn btn-primary" style="width:100%; border-radius:8px; margin-top:8px;">
+                  <span>Subscribe to Research</span>
+                  <i class="fas fa-envelope"></i>
+                </button>
+              </form>
+            </div>
+
+            <!-- Return to Resource Center Link -->
+            <div style="text-align:center;">
+              <a href="blog.html" class="btn btn-secondary" style="width:100%; border-radius:8px;">
+                <i class="fas fa-arrow-left"></i>
+                <span>Return to Blog Hub</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Dynamic Footer Root -->
+  <div id="footer-root"></div>
+
+  <!-- Load Data Stores & Scripts -->
+  <script src="js/blog-data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/blog-renderer.js"></script>
+</body>
+</html>
